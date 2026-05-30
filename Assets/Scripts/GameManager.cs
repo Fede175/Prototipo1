@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -11,11 +12,16 @@ public class GameManager : MonoBehaviour
     bool JuegoTerminado = false;
     void Awake()
     {
+        Time.timeScale = 1f;
         uiManagerScript = GameObject.FindObjectOfType<UI_Manager>();
     }
 
     void Update()
     {
+        if (JuegoTerminado && Input.GetKeyDown(KeyCode.R))
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
         if (JuegoTerminado) return;
 
         tiempoRestante -= Time.deltaTime;
@@ -24,8 +30,10 @@ public class GameManager : MonoBehaviour
         if (tiempoRestante <= 0)
         {
             tiempoRestante = 0; 
+            uiManagerScript.UpdateTimer(0);  
             JuegoTerminado = true; 
-            Debug.Log("Loss");     
+            uiManagerScript.MostrarPantallaGameOver();
+            Time.timeScale = 0f;   
         }
     }
     
@@ -36,7 +44,8 @@ public class GameManager : MonoBehaviour
        if (score >= scoreMaximo)
         {
             JuegoTerminado = true; 
-            Debug.Log("Win");      
+            uiManagerScript.MostrarPantallaWin();
+            Time.timeScale = 0f; 
         }
     }
 }
