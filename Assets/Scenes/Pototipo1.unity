@@ -2134,7 +2134,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   uiManagerScript: {fileID: 2057784550}
   scoreMaximo: 2
-  tiempoRestante: 30
+  tiempoRestante: 10
 --- !u!4 &1760595571
 Transform:
   m_ObjectHideFlags: 0
