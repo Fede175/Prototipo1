@@ -19,7 +19,7 @@ public class UI_Manager : MonoBehaviour
     public void UpdateTimer(float time)
     {
         int tiempoEntero = (int)time;
-        txtTimer.text = tiempoEntero.ToString();
+        txtTimer.text = "Time: " + tiempoEntero.ToString();
     }
 
     public void MostrarPantallaWin()

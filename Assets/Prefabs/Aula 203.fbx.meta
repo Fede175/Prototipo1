@@ -1,89 +1,61 @@
 fileFormatVersion: 2
-guid: 3e3c127d220959644a0de1e416052fdc
+guid: 0e375b3250f9fb243879d3f7d10ef142
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Escritorio
-    100004: Paredes
-    100006: Piso
-    100008: Refe Escala Humana
-    100010: Techo
-    100012: Ventana
+    100002: Paredes
+    100004: Piso
+    100006: Techo
+    100008: Ventana
     400000: //RootNode
-    400002: Escritorio
-    400004: Paredes
-    400006: Piso
-    400008: Refe Escala Humana
-    400010: Techo
-    400012: Ventana
-    2100000: Pared_Aula
-    2100002: No Name
-    2100004: MelaminaGris
-    2100006: MetalBlanco
-    2100008: Granito
-    2100010: Techo Aula
-    2100012: Ventana_Marco
-    2100014: Ventana_Vidrio
-    2300000: Escritorio
-    2300002: Paredes
-    2300004: Piso
-    2300006: Refe Escala Humana
-    2300008: Techo
-    2300010: Ventana
-    3300000: Escritorio
-    3300002: Paredes
-    3300004: Piso
-    3300006: Refe Escala Humana
-    3300008: Techo
-    3300010: Ventana
+    400002: Paredes
+    400004: Piso
+    400006: Techo
+    400008: Ventana
+    2100000: Material
+    2100002: Piso
+    2100004: Techo
+    2100006: Ventana_Marco
+    2100008: Ventana_Vidiro
+    2300000: Paredes
+    2300002: Piso
+    2300004: Techo
+    2300006: Ventana
+    3300000: Paredes
+    3300002: Piso
+    3300004: Techo
+    3300006: Ventana
     4300000: Paredes
-    4300002: Refe Escala Humana
-    4300004: Escritorio
-    4300006: Piso
-    4300008: Techo
-    4300010: Ventana
+    4300002: Piso
+    4300004: Techo
+    4300006: Ventana
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Granito
-    second: {fileID: 2100000, guid: f376799bc6fcafa46a95dc3ef89276c6, type: 2}
+      name: Material
+    second: {fileID: 2100000, guid: 221a37229a9781f46aa62379f27680dc, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: MelaminaGris
-    second: {fileID: 2100000, guid: a6b648e9625324a4788de86d9e73d39f, type: 2}
+      name: Piso
+    second: {fileID: 2100000, guid: a3dba199c8e2dc44cb3f5376207e4ed3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: MetalBlanco
-    second: {fileID: 2100000, guid: 2e5935a533cf8364185fd375a055eb3e, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: No Name
-    second: {fileID: 2100000, guid: 6b9f3e812376dff40a68cc3c325b5bd6, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Pared_Aula
-    second: {fileID: 2100000, guid: d5fce3486f141af41bdd1c8d4c57bcf2, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Techo Aula
-    second: {fileID: 2100000, guid: 9a8c76ff6740b544f8c19302c173506a, type: 2}
+      name: Techo
+    second: {fileID: 2100000, guid: a473f9290d1d58144b295632a85335ed, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ventana_Marco
-    second: {fileID: 2100000, guid: 1f711cc9be12e9a4c86837c43a3e566a, type: 2}
+    second: {fileID: 2100000, guid: a575fb32000e6b8419759dcf946876e5, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Ventana_Vidrio
-    second: {fileID: 2100000, guid: 0f355576600f7c94cbe6a17ff7ea2d91, type: 2}
+      name: Ventana_Vidiro
+    second: {fileID: 2100000, guid: 78e625793caf3de4bb863b94e4922e16, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
