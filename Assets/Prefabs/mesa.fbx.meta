@@ -5,12 +5,11 @@ ModelImporter:
   fileIDToRecycleName:
     100000: //RootNode
     400000: //RootNode
-    2100000: Gris
-    2100002: Blanco
+    2100000: Papoy
+    2100002: Gris
     2300000: //RootNode
     3300000: //RootNode
     4300000: Cube
-    2186277476908879412: ImportLogs
   externalObjects: {}
   materials:
     importMaterials: 1
