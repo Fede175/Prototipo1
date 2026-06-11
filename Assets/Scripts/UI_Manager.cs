@@ -13,7 +13,7 @@ public class UI_Manager : MonoBehaviour
 
     public void UpdateScore(int score)
     {
-        txtScore.text = "Score: " + score.ToString() + "/3";
+        txtScore.text = "Score: " + score.ToString() + "/4";
     }
 
     public void UpdateTimer(float time)
