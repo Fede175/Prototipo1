@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3b599ac51a7a8c84c95521d0d7813c4b
+guid: 70137585856b5e04ca45519ba75d50fc
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
@@ -35,27 +35,27 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material
-    second: {fileID: 2100000, guid: 260f2de5cb573f34096f1c5d62c746b9, type: 2}
+    second: {fileID: 2100000, guid: ad343812d5bcec747b169aa114f08e93, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Piso
-    second: {fileID: 2100000, guid: 97ff90229ce2aaa43a1e22e6d35cef43, type: 2}
+    second: {fileID: 2100000, guid: b90063bbd1f68684b844bd85a8ea175a, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Techo
-    second: {fileID: 2100000, guid: 753c1dea42182524f9156d6629e63d77, type: 2}
+    second: {fileID: 2100000, guid: 514e65737ab0bd6408af0ea6dfe00277, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ventana_Marco
-    second: {fileID: 2100000, guid: 72f3e78b424c7ee4f8a04b3dbf057468, type: 2}
+    second: {fileID: 2100000, guid: d940406c23622af4abee57f2ae14371d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ventana_Vidiro
-    second: {fileID: 2100000, guid: 193f45686eec98149bac68432fd32ea6, type: 2}
+    second: {fileID: 2100000, guid: aa0641a0a560fff4887f75b46c7ea2c3, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
