@@ -17,7 +17,7 @@ ModelImporter:
     2100002: Piso
     2100004: Techo
     2100006: Ventana_Marco
-    2100008: Ventana_Vidiro
+    2100008: Ventana_Vidrio
     2300000: Paredes
     2300002: Piso
     2300004: Techo
@@ -35,27 +35,27 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Material
-    second: {fileID: 2100000, guid: ad343812d5bcec747b169aa114f08e93, type: 2}
+    second: {fileID: 2100000, guid: f919d49ef0cbe584e8119f19c4c4c2e3, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Piso
-    second: {fileID: 2100000, guid: b90063bbd1f68684b844bd85a8ea175a, type: 2}
+    second: {fileID: 2100000, guid: 37ce0ba983aa0bb44bc2088f6a69139d, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Techo
-    second: {fileID: 2100000, guid: 514e65737ab0bd6408af0ea6dfe00277, type: 2}
+    second: {fileID: 2100000, guid: b18c7bb1bf6f3884a97c0ab724a6d01b, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: Ventana_Marco
-    second: {fileID: 2100000, guid: d940406c23622af4abee57f2ae14371d, type: 2}
+    second: {fileID: 2100000, guid: a1c1531b2abff3342bcf5db6d351e8de, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Ventana_Vidiro
-    second: {fileID: 2100000, guid: aa0641a0a560fff4887f75b46c7ea2c3, type: 2}
+      name: Ventana_Vidrio
+    second: {fileID: 2100000, guid: b638845813978884585e1b839ee221ae, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
@@ -95,7 +95,7 @@ ModelImporter:
     importCameras: 1
     importLights: 1
     swapUVChannels: 0
-    generateSecondaryUV: 1
+    generateSecondaryUV: 0
     useFileUnits: 1
     optimizeMeshForGPU: 1
     keepQuads: 0
